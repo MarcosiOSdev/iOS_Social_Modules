@@ -1,15 +1,15 @@
 //
-//  NewFeedsTests.swift
-//  NewFeedsTests
+//  ProfileUITests.swift
+//  ProfileUITests
 //
-//  Created by Marcos Felipe Souza on 17/02/20.
+//  Created by Marcos Felipe Souza on 18/02/20.
 //  Copyright © 2020 Marcos Felipe Souza. All rights reserved.
 //
 
 import XCTest
-@testable import NewFeeds
+@testable import ProfileUI
 
-class NewFeedsTests: XCTestCase {
+class ProfileUITests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -20,7 +20,7 @@ class NewFeedsTests: XCTestCase {
     }
 
     func testExample() {
-        XCTAssert(true, "Unit teste in NewFeedsTests")
+        XCTAssert(true, "Unit Teste in ProfileUITests")
     }
 
     func testPerformanceExample() {

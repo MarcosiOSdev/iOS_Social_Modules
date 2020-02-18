@@ -1,15 +1,15 @@
 //
-//  NewFeedsTests.swift
-//  NewFeedsTests
+//  TestHelpersTests.swift
+//  TestHelpersTests
 //
-//  Created by Marcos Felipe Souza on 17/02/20.
+//  Created by Marcos Felipe Souza on 18/02/20.
 //  Copyright © 2020 Marcos Felipe Souza. All rights reserved.
 //
 
 import XCTest
-@testable import NewFeeds
+@testable import TestHelpers
 
-class NewFeedsTests: XCTestCase {
+class TestHelpersTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -20,7 +20,8 @@ class NewFeedsTests: XCTestCase {
     }
 
     func testExample() {
-        XCTAssert(true, "Unit teste in NewFeedsTests")
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
     func testPerformanceExample() {

@@ -8,6 +8,8 @@
 
 import UIKit
 import SwiftUI
+import Common
+import ProfileUI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 

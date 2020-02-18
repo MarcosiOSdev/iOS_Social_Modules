@@ -2,12 +2,25 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "container:SocialModule.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Feature">
+      <FileRef
+         location = "group:../Feature/ImageUI/ImageUI.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../Feature/ProfileUI/ProfileUI.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:../Feature/NewFeeds/NewFeeds.xcodeproj">
+      </FileRef>
+   </Group>
+   <FileRef
       location = "group:../Feature/Common/Common.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../Feature/NewFeeds/NewFeeds.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "container:SocialModule.xcodeproj">
+      location = "group:../Common_Test/TestHelpers/TestHelpers.xcodeproj">
    </FileRef>
 </Workspace>
